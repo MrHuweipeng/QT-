@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDT">
+    <property name="title">
+     <string>地图功能</string>
+    </property>
+    <addaction name="actionSFYD"/>
+   </widget>
+   <widget class="QMenu" name="menu_LZ">
+    <property name="title">
+     <string>粒子功能</string>
+    </property>
+    <addaction name="actionkaishi"/>
+    <addaction name="actionjieshu"/>
+    <addaction name="actionCND"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>小车运动</string>
+    </property>
+    <addaction name="action_DNDN"/>
+    <addaction name="action_YSYD"/>
+    <addaction name="action_GJYD"/>
+    <addaction name="action_ALXYD"/>
+    <addaction name="action_ZXLD"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>小车的总时钟</string>
+    </property>
+    <addaction name="actionKaiShi"/>
+    <addaction name="actionJieShu"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>微粒群算法寻找</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionwlkaishi"/>
+    <addaction name="actionwljieshu"/>
+   </widget>
+   <addaction name="menuDT"/>
+   <addaction name="menu_LZ"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSFYD">
+   <property name="text">
+    <string>地图缩放和移动</string>
+   </property>
+  </action>
+  <action name="actionStart">
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>结束</string>
+   </property>
+  </action>
+  <action name="actionkaishi">
+   <property name="text">
+    <string>开始扩散</string>
+   </property>
+  </action>
+  <action name="actionjieshu">
+   <property name="text">
+    <string>结束扩散</string>
+   </property>
+  </action>
+  <action name="action_DNDN">
+   <property name="text">
+    <string>点哪到哪</string>
+   </property>
+  </action>
+  <action name="action_YSYD">
+   <property name="text">
+    <string>匀速运动</string>
+   </property>
+  </action>
+  <action name="action_GJYD">
+   <property name="text">
+    <string>轨迹运动</string>
+   </property>
+  </action>
+  <action name="action_ALXYD">
+   <property name="text">
+    <string>按路线运动</string>
+   </property>
+  </action>
+  <action name="action_ZXLD">
+   <property name="text">
+    <string>找泄漏点</string>
+   </property>
+  </action>
+  <action name="actionKaiShi">
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </action>
+  <action name="actionJieShu">
+   <property name="text">
+    <string>结束</string>
+   </property>
+  </action>
+  <action name="actionCND">
+   <property name="text">
+    <string>测浓度</string>
+   </property>
+  </action>
+  <action name="actionwlkaishi">
+   <property name="text">
+    <string>微粒群算法开始</string>
+   </property>
+  </action>
+  <action name="actionwljieshu">
+   <property name="text">
+    <string>微粒群算法结束</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
